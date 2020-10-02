@@ -1,0 +1,145 @@
+﻿
+.dx-texteditor-input, .dx-searchbox .dx-placeholder:before {
+    padding-left: 5px !important;
+}
+
+.dx-searchbox .dx-icon-search {
+    display: none !important;
+}
+
+.dx-datagrid-search-panel {
+    float: left !important;
+}
+
+.dx-icon {
+    font-size: 13px !important;
+}
+
+#customButton {
+    background: #00b0f0;
+}
+
+    #customButton * {
+        color: white !important;
+    }
+
+.dx-toolbar {
+    background-color: #fff;
+}
+
+/*.dx-datagrid .dx-sort-down,
+.dx-datagrid .dx-sort-up {
+    display: none !important;
+}*/
+
+.dx-datagrid .dx-column-indicators {
+    display: none !important;
+}
+
+.dx-datagrid-rowsview .dx-row > .dx-master-detail-cell {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.dx-datagrid-group-closed {
+    display: none !important;
+}
+
+.dx-datagrid-group-opened {
+    display: none !important;
+}
+/*.dx-command-expand.dx-datagrid-group-space {
+    width: 1px !important;
+    display:none;
+}*/
+/*.dx-command-select {
+    width: 1px !important;
+}*/
+
+.internal-grid > .dx-datagrid .dx-data-row > td {
+    background-color: #d8e9f3 !important;
+}
+
+.internal-grid > .dx-datagrid-rowsview .dx-master-detail-row:not(.dx-datagrid-edit-form) > .dx-datagrid-group-space,
+.internal-grid > .dx-datagrid-rowsview .dx-master-detail-row:not(.dx-datagrid-edit-form) .dx-master-detail-cell {
+    background-color: #d8e9f3 !important;
+}
+
+.internal-grid > .dx-datagrid.dx-datagrid-borders > .dx-datagrid-headers,
+.internal-grid > .dx-datagrid.dx-datagrid-borders > .dx-datagrid-rowsview,
+.internal-grid > .dx-datagrid.dx-datagrid-borders > .dx-datagrid-total-footer {
+    border-left: 1px solid #b3b3b3;
+    border-right: 1px solid #b3b3b3;
+}
+
+.internal-grid > .dx-datagrid.dx-datagrid-borders > .dx-datagrid-rowsview,
+.internal-grid > .dx-datagrid.dx-datagrid-borders > .dx-datagrid-total-footer {
+    border-bottom: 1px solid #b3b3b3;
+}
+
+.internal-grid > .dx-datagrid.dx-datagrid-borders > .dx-datagrid-pager,
+.internal-grid > .dx-datagrid.dx-datagrid-borders > .dx-datagrid-headers,
+.internal-grid > .dx-datagrid.dx-datagrid-borders > .dx-datagrid-rowsview {
+    border-top: 1px solid #b3b3b3;
+}
+
+
+.dx-command-select {
+    width: 30px !important;
+    min-width: 30px !important;
+}
+
+.dx-datagrid-group-space {
+    width: 5px !important;
+    min-width: 5px !important;
+}
+
+#vendorGrid .dx-datagrid-header-panel .dx-toolbar {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color:#eee;
+}
+
+#vendorGrid .dx-datagrid-header-panel{
+    background-color:#eee;
+}
+
+#gridWarehouse .dx-datagrid-header-panel .dx-toolbar {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color:#eee;
+}
+
+#gridWarehouse .dx-datagrid-header-panel{
+    background-color:#eee;
+}
+
+.dx-tooltip-wrapper{
+    z-index: 1999999 !important;
+}
+
+/*::-webkit-scrollbar {
+    width: 0.5em;
+    height: 2em
+}
+::-webkit-scrollbar-button {
+    background: #ccc
+}
+::-webkit-scrollbar-track-piece {
+    background: #888
+}
+::-webkit-scrollbar-thumb {
+    background: #eee
+}*/
+
+
+#panelProjectCodeMultipleDetail label{
+        margin-bottom: 0px !important;
+}
+
+#panelProjectCodeMultipleDetail .form-control{
+    height: 28px !important;
+}
